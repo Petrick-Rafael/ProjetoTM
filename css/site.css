@@ -1,0 +1,20 @@
+.jumbotron{
+    background-image: url('../img/j.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+    height: 6cm;
+    
+}
+.titulo{
+    font-size: 3rem;
+    color: rgb(2, 49, 2);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-style: italic;
+    transition: 1s;
+}
+.navbar{
+    margin-top: -2rem;
+}
