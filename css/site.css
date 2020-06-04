@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(0, 100, 0, 0.548);
+}
+
 .jumbotron{
     background-image: url('../img/j.jpeg');
     background-repeat: no-repeat;
@@ -5,16 +9,37 @@
     background-position: center;
     transition: 2s;
     height: 6cm;
-    
+    font-family: 'Courier New', Courier, monospace;
 }
 .titulo{
     font-size: 3rem;
     color: rgb(2, 49, 2);
-    font-family: 'Courier New', Courier, monospace;
+    
     font-weight: bolder;
     font-style: italic;
     transition: 1s;
 }
 .navbar{
     margin-top: -2rem;
+}
+.container{
+    font-size: small;
+}
+.card{
+    background-color: gray;
+    width: auto;
+    height: auto;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.social{
+    height: 50px;
+    width: 50px;
+}
+.negatives{
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -30px;
 }
